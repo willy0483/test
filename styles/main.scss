@@ -1,0 +1,17 @@
+// Import variables and mixins first
+@import "variables";
+@import "mixins";
+
+// Import global styles
+@import "reset";
+@import "./_global";
+
+// Import component styles
+@import "components/navbar";
+@import "components/card";
+
+// Import page-specific styles
+@import "pages/home";
+@import "pages/about";
+@import "pages/contact";
+@import "pages/cardPage";

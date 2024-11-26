@@ -1,0 +1,54 @@
+@import "variables"; // Import SCSS variables for consistency
+
+/* Global body styles */
+body {
+  font-family: $font-family; /* Example: 'Arial', sans-serif */
+  font-size: 16px; /* Base font size */
+  line-height: 1.5;
+  color: $text-color; /* Example: #333 */
+  background-color: $background-color; /* Example: #f9f9f9 */
+}
+
+/* Global heading styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-family; /* Use same font for headings */
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+/* Link styles */
+a {
+  color: $primary-color; /* Example: #007bff */
+  &:hover {
+    color: darken($primary-color, 10%); /* Darken the color on hover */
+  }
+}
+
+/* Utility classes */
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Add global spacing utility */
+.margin-top-sm {
+  margin-top: 10px;
+}
+
+.margin-top-lg {
+  margin-top: 30px;
+}
